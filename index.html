@@ -7,14 +7,977 @@
     <link rel="stylesheet" href="css/milligram.min.css">
 
     <link rel="stylesheet" href="css/style.css">
-    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/milligram/1.3.0/milligram.css">
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,700,600' rel='stylesheet' type='text/css'>
 
     <script type="module" src="js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script> 
 </head>
 <body>
-	<div class="container">
-        Write your critique and attach your redesigns here!
-	</div>
+	<div id ="demo-top-bar">
+        <div id="demo-bar-inside">
+            <h2 id="demo-bar-badge"> Visualization: Critique and Redesign</h2>
+            <button class= "p5 p6" id = "demo-bar-buttons" style="display: none">← Back to Title Page</button>
+        </div>
+    </div>
+    
+    <div class= "cover" id="empty-space" style= "height: 150px"></div>
+    <div class= "cover" id="intro" style="transform: translateY(0%)";>
+         <div class="cover" id= "introtitle" style= "font-family: 'Courier New', Courier, monospace; margin-left: 20px; font-size: 52px;color: white;">Hello!</div>
+         <div class="cover" id= 'introtitle1' style= "font-family: 'Courier New', Courier, monospace; margin-left: 20px;font-size: 52px;color: white;">This is Homework 1</div>
+    </div>
+    <div class= "cover" id="empty-space2" style= "height: 225px"></div>
+
+
+        <button class= "cover p3" style= "font-family: 'Courier New', Courier, monospace; margin-left: 20px; font-size: 14px;color: white;
+        background-color: black; border: none">Part1</button>
+     <div class= "cover" id="empty-space3" style= "height: 10px"></div>
+
+    
+        <button class= "cover p4" style= "font-family: 'Courier New', Courier, monospace; margin-left: 20px; font-size: 14px;color: white;
+        background-color: black; border: none">Part2</button>
+    </div>
+<div class= "p5" style= "display: none">
+    <div id= "Title" style= "text-decoration: underline; position: relative; top: 40px; text-align: center; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif  ">
+        <h1> The Critique </h1>
+    </div>
+    <div id = "empty-space" style="height: 150px"></div>
+    <div id = "secondary-title" style= "text-decoration: underline; font-family: Arial, Helvetica, sans-serif; margin-left: 230px">
+        <h2>Good Visualizations</h2>
+    </div>
+    <div id = "tertiary-title1" style="text-decoration: underline;">
+        <h3>Visualization #1:
+        </h3>
+    </div>
+    <div class= "row">
+    <div class = "column column-25" style= "color:white">
+            <div class="sidebar-box gray">
+              
+                <div class="summary"><p><em>Shareholders</em> in the company might be interested in investing more...</p></div>
+
+                <div class="content">
+
+                    <p>
+
+                        
+
+                        The most interested audience would be shareholders
+                        in Tesla and workers in Tesla who are inclined to see their 
+                        own company prosper. Of course, the rest of the audience 
+                        are people who are interested in investing in either stocks,
+                        or perhaps a new Tesla car. This graph conveys to the most
+                        interested that despite a tough start, revenues are beginning
+                        to grow exponentially. Tesla is beginning to be a dependable
+                        corporation for technology and will continue to have a presence
+                        in future markets.
+
+                    </p>
+                    </div>
+                    <div class="stage">
+                    <button class= "read-more">Read more</button>
+                    </div>
+              </div>
+        
+        </div>
+    <div class= "column column-25" style="color: white">
+            <div class="sidebar-box gray">
+                    <div class="summary"><p>Length and color</p></div>
+                    <div class="content">
+                        <p></p>
+                            
+
+                            The length of the bars encode the revenue (quantitative)
+                            made by Tesla over one year. The color of blue and green
+                            encode and distinguishes the revenue and loss (categorical).
+                        </p>
+                        </div>
+                        <div class="stage">
+                        <button class= "read-more">Read more</button>
+                        </div>
+                  </div>
+    </div>
+    <div class= "column column-40 column-offset-10"><img id= "good-vis1" src= "Tesla.png"  float= "right"></div>
+
+    </div>
+    
+
+    <div class= "row">             
+
+            <div class = "column column-25" style= "color:white">
+                    <div class="sidebar-box gray">
+                        <div class="summary"><p>Revenue <em>vs</em> Losses</p></div>
+                        <div class="content">
+                            <p>
+
+                              In this easily analyzable graph, readers will be looking at the 
+                              lengths of the bars 
+                              to compare the revenues and losses of each year. They will also 
+                              take into account the proportion of loss and revenue each year
+                              which is made apparent by nicely having losses, a term
+                              associated with a value being decreased, be extended below 
+                              into the negative space (below the x-axis). 
+
+                     
+                            </p>
+                            </div>
+                            <div class="stage">
+                            <button class= "read-more">Read more</button>
+                            </div>
+                      </div>
+                
+                </div>
+            <div class= "column column-25" style="color: white">
+                    <div class="sidebar-box gray">
+                            <div class="summary"><p>Truthful, functional, clean, and insightful</p></div>
+                            
+                            <div class="content">
+                                <p>
+
+                                  As the numbers do not lie nor are there any 
+                                  scaling delusions, this is an honest graph. Since a 
+                                  bar graph is very easy to read and conveys a pretty direct
+                                  message, the graph is functional. The fact that there is not
+                                  any other decorations make the graph simple and clean, giving
+                                  some element of beauty. More importantly, the insightful message 
+                                  transmitted will prove useful for the stated members of the audience
+                                  who can be more positive with their future investments in technology, especially
+                                  in Tesla. It could even be enlightening given the growing importance
+                                  of technology. Due to all these factors, this visualization is indeed a good one.
+                          
+                                </p>
+                                </div>
+                                <div class="stage">
+                                <button class= "read-more">Read more</button>
+                                </div>
+                          </div>
+            </div>     
+
+
+            </div>
+
+      <a href="https://www.theatlas.com/charts/Jy_DKl2Mw">Link to Source</a>
+    <div id = "empty-space" style="height: 150px"></div>
+    <div id = "tertiary-title2" style="text-decoration: underline;">
+            <h3>Visualization #2:</h3>
+     </div>
+     <div class= "row">
+            <div class = "column column-25" style= "color:white">
+                    <div class="sidebar-box gray">
+                        <div class="summary"><p><em> Broad</em> range of audience</p></div>
+                        <div class="content">
+                            <p>
+
+                            
+
+                              The range of the audience is very broad. It can include anybody who
+                              is invested in any of the shown companies and can also include workers of
+                              those companies. This graph conveys the change in brand value over time. It 
+                              can be a very useful graph if one wanted to understand the corporate
+                              hierarchy in terms of popularity. It can also be helpful towards people
+                              who are interested in investing in these companies in the near future, 
+                              as company brand history could be a clear sign for investors. 
+
+                            </p>
+                            </div>
+                            <div class="stage">
+                            <button class= "read-more">Read more</button>
+                            </div>
+                      </div>
+                
+                </div>
+            <div class= "column column-25" style="color: white">
+                    <div class="sidebar-box gray">
+                            <div class="summary"><p>Length and colors</p></div>
+                            <div class="content">
+                                <p>
+
+                          
+                                  
+                                  The length of the bars encode the brand value (quantitative). The 
+                                  colors of the bars reflect the company colors (categorical) and make it easy 
+                                  to distinguish one another. Lastly, the year itself is put in the bottom
+                                  right and allows readers to keep track of brand values over time (ordinal).
+                                  
+                                  
+                                </p>
+                                </div>
+                                <div class="stage">
+                                <button class= "read-more">Read more</button>
+                                </div>
+                          </div>
+            </div>
+            </div>
+            <div class= "column column-40 column-offset-0"><img id= "good-vis2" src= "BarChartRace.gif" style= "max-height: 650px; max-width: 650px; float: right;"></div>
+
+            <div class= "row">
+                    <div class = "column column-25" style= "color:white">
+                            <div class="sidebar-box gray">
+                                <div class="summary"><p><em>Interactive</em></p></div>
+                                <div class="content">
+                                    <p>
+                                      
+                                      The graph's many variables could lead one to believe that it is 
+                                      difficult to read, but it's interactivity truly facilitates the process.
+                                      The moving bars over time reflect the comptetiveness of today's age, and one
+                                      can easily see who is ranked first because the top winning company of brand value has 
+                                      it's name on the bottom. Since the companies at the bottom are proportionally much less 
+                                      than the top, there is enough space for a long name such as Mercedes-Benz to fit, making 
+                                      the graph easy to read. Comparing the length of the bars for brand value is quite an easy 
+                                      task as well, and the color of the companies deter confusing with another company. Lastly,
+                                      the top growing companies shown on the bottom right can help the audience see how the top growing companies
+                                      are trending. 
+                              
+                                
+                                      
+                                    </p>
+                                    </div>
+                                    <div class="stage">
+                                    <button class= "read-more">Read more</button>
+                                    </div>
+                              </div>
+                        
+                        </div>
+                    <div class= "column column-25" style="color: white">
+                            <div class="sidebar-box gray">
+                                    <div class="summary"><p>Insightful, elegant, useful, and honest</p></div>
+                                    <div class="content">
+                                        <p>
+
+                                          The many aspects to the graph allow for someone to gleam a lot of information
+                                          making it an insightful graph. It's simplicity allow one to appreciate it's design
+                                          and therefore there is a clear element of elegance. Of course, the sheer usefulness 
+                                          of the interactive graph makes it very functional. It is also a graph that does not 
+                                          distort the information of brand value so it a truthful represenation. Considering all
+                                          of these aspects, this visualization is a very good one.
+
+                                          
+                                        </p>
+                                        </div>
+                                        <div class="stage">
+                                        <button class= "read-more">Read more</button>
+                                        </div>
+                                  </div>
+                    </div>
+                    </div>
+                    
+                <a href="https://www.visualisingdata.com/2019/08/10-significant-visualisation-developments-january-to-june-2019/">Link to Source</a>
+
+    <div id = "tertiary-title3" style="text-decoration: underline;">
+            <h3>Visualization #3:</h3>
+     </div>
+     <div class= "row">
+            <div class = "column column-25" style= "color:white">
+                    <div class="sidebar-box gray">
+                        <div class="summary"><p>Apple <em>customers</em></p></div>
+                        <div class="content">
+                            <p>
+                              
+                              The audience is mainly apple customers, especially those who own
+                              smartphones, and secondary would be any smartphone owner. The graphs
+                              show the increasing price of the iPhone, and other smartphones. By comparing 
+                              all this data, the message is that Apple is beginning to stop profiting
+                              from the sale of iPhones, and now intend to profit more from their 
+                              services. 
+
+
+                              
+                            </p>
+                            </div>
+                            <div class="stage">
+                            <button class= "read-more">Read more</button>
+                            </div>
+                      </div>
+                
+                </div>
+            <div class= "column column-25" style="color: white">
+                    <div class="sidebar-box gray">
+                            <div class="summary"><p><em>Grid-like strucutre</em></p></div>
+                            <div class="content">
+                                <p>
+
+                                    
+                                  
+                                  The first graph has a grid-like background where vertical and 
+                                  horizontal lines encode different data by position. The first graph's 
+                                  vertical lines encode the price (quantitative) of the iPhone, and 
+                                  the horizontal lines encode the years (ordinal) and iPhone version 
+                                  that has been released. Also, the different colored dots 
+                                  in the grid are different versions (because of their storage capacity) 
+                                  of the iPhones released that year (categorical). The second graph's 
+                                  horizontal lines encode the revenue (quantitative) made by the different companies
+                                  per smartphone. The x-axis shows the year(ordinal) so as to present the revenue over time.
+                                  The different colors of the lines encode the different companies (categorical).
+                                  In the last graph the horizontal lines encode the smartphone shipments (quantitative)
+                                  worldwide in billions and once again the years can be perceived in the 
+                                  x-axis (ordinal). The different colors show the different companies (categorical).
+
+                                  
+                                 
+                                </p>
+                                </div>
+                                <div class="stage">
+                                <button class= "read-more">Read more</button>
+                                </div>
+                          </div>
+            </div>
+            </div>
+            <div class= "column column-40 column-offset-10"><img id= "good-vis3" src= "apple.png" style= "max-height: 450px; max-width: 700px; float: right;"></div>
+
+            <div class= "row">
+                    <div class = "column column-25" style= "color:white">
+                            <div class="sidebar-box gray">
+                                <div class="summary"><p><em>Multiple</em> perspectives</p></div>
+                                <div class="content">
+                                    <p>
+
+                                      The fact that there are multiple graphs instead of
+                                      one makes it very easy to read. On that note, the dots 
+                                      that represent the different storage capacities facilitate 
+                                      the year by year comparison as one moves down the grid. It is also
+                                      easy to differentiate the extremes in prices. The lines on the 
+                                      second graph allow one to catch trends in each companies' history.
+                                      Being able to be differentiated by color disallows confusion with identifying
+                                      the companies as well. The last graph's use of different colors make it easy
+                                      to compare the proportions of Apple's shipments with everybody else. As 
+                                      one get to the current years, Apple's decreased smartphone shipments reflects
+                                      the message of the visualization. 
+
+
+                                  
+                                    </p>
+                                    </div>
+                                    <div class="stage">
+                                    <button class= "read-more">Read more</button>
+                                    </div>
+                              </div>
+                        
+                        </div>
+                    <div class= "column column-25" style="color: white">
+                            <div class="sidebar-box gray">
+                                    <div class="summary"><p>Clear, functional, <em> enlightening</em>, truthful</p></div>
+                                    <div class="content">
+                                        <p>
+
+                                          In terms of beauty, the amount of decorations is 
+                                          kept varied and judiciously used; the clarity of the graphs is thereby highlighted.
+                                          The use of three different graphs allow one to receive multiple perspectives,
+                                          attributing the visualization a functional quality. Also, because the graphs' data agree
+                                          with each other and the source of the data comes from the companies' own reports, the graphs
+                                          are truthful. The price of mobile devices has long plagued customers with their prices, but 
+                                          this report could prove fruitul for future interested customers. The graph is therefore enlightening
+                                          and could be a great hint for them. All these reasons considered, the visualization is a great one.
+
+                                        
+                                        </p>
+                                        </div>
+                                        <div class="stage">
+                                        <button class= "read-more">Read more</button>
+                                        </div>
+                                  </div>
+                    </div>
+                    </div>
+                    <a href="https://www.economist.com/graphic-detail/2019/09/11/a-top-of-the-range-iphone-costs-twice-as-much-as-it-did-a-decade-ago">Link to Source</a>
+
+    <div id = "empty-space" style="height: 150px"></div>
+    <div id = "secondary-title" style= "text-decoration: underline; font-family: Arial, Helvetica, sans-serif; margin-left: 230px">
+        <h2>Bad Visualizations</h2>
+    </div> 
+    <div id = "tertiary-title1" style="text-decoration: underline;">
+        <h3>Visualization #1:</h3>
+    </div>
+    <div class= "row">
+    <div class = "column column-25" style= "color:white">
+            <div class="sidebar-box gray">
+                <div class="summary"><p> <em> Litterers beware...</em></p></div>
+                <div class="content">
+                    <p>
+
+                        
+                      
+                       This visualization is mainly intended for people who do not recycle their water bottles, but
+                       it can also be directed towards environmmental activists. The image clearly depicts the 
+                       wasteful and corruptive culture of today's world and attempts to convince the viewer into 
+                       better habits before more damage is done. 
+                       
+
+                      
+                    </p>
+                    </div>
+                    <div class="stage">
+                    <button class= "read-more">Read more</button>
+                    </div>
+              </div>
+        
+        </div>
+    <div class= "column column-25" style="color: white">
+            <div class="sidebar-box gray">
+                    <div class="summary"><p> <em> Qualitative</em> somehow measures quantitative?</p></div>
+                    <div class="content">
+                        <p>
+
+                            
+                          
+                          The only data that is encoded is the color blue coming from the piled up
+                          water bottles (categorical) in order to represent the water bottles, and
+                          the sheer amount of bottles encode the amount of purchased water bottles (quantitatve) around the world
+                          on a daily basis. The amount is portrayed by comparing the quantity of bottles with 
+                          the size of the Eiffel Tower.
+
+                         
+                        </p>
+                        </div>
+                        <div class="stage">
+                        <button class= "read-more">Read more</button>
+                        </div>
+                  </div>
+    </div>
+    </div>
+    <div class= "column column-40 column-offset-10"><img id= "bad-vis1" src= "tower.jpg" style= "max-height: 450px; max-width: 750px; float: right;"  float= "right"></div>
+
+    <div class= "row">
+            <div class = "column column-25" style= "color:white">
+                    <div class="sidebar-box gray">
+                        <div class="summary"><p> Inward or outward projection?</p></div>
+                        <div class="content">
+                            <p>
+
+                              Since there are not many objects or variables in the image, it is relatively lax
+                              on the number of things to keep track of. But, the fact that it is a 3D image 
+                              makes the comparison difficult to perceive. Since the stack of bottles is behind 
+                              the Eiffel Tower, there could be error in perception as one has to not only compare 
+                              the height of the water bottle stack, but also it's distance off in the background which 
+                              could skew results. The resulting comparions makes it very difficult to read.
+
+                             
+                            </p>
+                            </div>
+                            <div class="stage">
+                            <button class= "read-more">Read more</button>
+                            </div>
+                      </div>
+                
+                </div>
+            <div class= "column column-25" style="color: white">
+                    <div class="sidebar-box gray">
+                            <div class="summary"><p>Reputable source, beautiful 3D rendering and detail, <em>enlightening</em>, but not very functional... </p></div>
+                            <div class="content">
+                                <p>
+
+                                  The data comes from a reliable source, and the portrayal next to the Eiffel Tower
+                                  seems accurate as well. Since there are no scales, there is less opportunity to be
+                                  dishonest. Therefore this is an honest representation of the message. It is also beautiful 
+                                  as our eyes only focus on the two objects that have considerable detail. It is also 
+                                  important to know this fact as this corresponds to a global dilemma therefore it is enlightening.
+                                  However, the fact there is no scale definitely takes functionality out of the picture. To have 
+                                  a better comparison, there should be a scale comparing the height at the very least while still retaining 
+                                  simplicity. In addition, while the message is clear, the representation of that message fails to be
+                                  insightful due to stack and Eiffel Tower not being exactly next to one another. This could cause
+                                  confusion and make someone arrive at a different conclusion. In other words, if this were art then it 
+                                  would score highly, but as a visualziation it fails in too many areas and is therefore a bad one.
+
+                                 
+                                </p>
+                                </div>
+                                <div class="stage">
+                                <button class= "read-more">Read more</button>
+                                </div>
+                          </div>
+            </div>
+            </div>
+            <a href="https://flowingdata.com/">Link to Source</a>
+            <div id = "empty-space" style="height: 150px"></div>
+    <div id = "tertiary-title2" style="text-decoration: underline;">
+            <h3>Visualization #2:</h3>
+     </div>
+     <div class= "row">
+            <div class = "column column-25" style= "color:white">
+                    <div class="sidebar-box gray">
+                        <div class="summary"><p>US <em>voters</em></p></div>
+                        <div class="content">
+                            <p>
+
+                              The audience is going to mainly be all residents living in the US, especially voters.
+                              This visualization displays the impression of people had before debate and after debate 
+                              of the political candidates. The trend in the graph shows that most notable candidates eventually 
+                              will be somewhat liked by the populace. This visualization could prove important as 
+                              it can help distinguish who among them will have the higher chance of being elected 
+                              President. 
+
+                             
+                            </p>
+                            </div>
+                            <div class="stage">
+                            <button class= "read-more">Read more</button>
+                            </div>
+                      </div>
+                
+                </div>
+            <div class= "column column-25" style="color: white">
+                    <div class="sidebar-box gray">
+                            <div class="summary"><p>Before and after debate</p></div>
+                            <div class="content">
+                                <p>
+
+                                The blue dots in the graph encode the names (categorical) of the candidates.
+                                Both x and y axes encode how favorable (quantitave) the candidate is before 
+                                and after debate respectively. 
+
+
+
+                                  
+                                </p>
+                                </div>
+                                <div class="stage">
+                                <button class= "read-more">Read more</button>
+                                </div>
+                          </div>
+            </div>
+            </div>
+            <div class= "column column-30 column-offset-10"><img id= "bad-vis2" src= "debate.png" style= "max-height: 450px; max-width: 750px; float: right;" ></div>
+
+            <div class= "row">
+                    <div class = "column column-25" style= "color:white">
+                            <div class="sidebar-box gray">
+                                <div class="summary"><p>But what is the <em>cumulative</em> effect?</p></div>
+                                <div class="content">
+                                    <p>
+
+                                      If readers want to see how favorable a candidate was before or after 
+                                      debate, then one only needed to see where the blue dot is in the x or y 
+                                      axis which is easy to do. However, when one is trying to make a cumulative 
+                                      comparison, there is not a direct comparison and if a candidate is closer to the 
+                                      top right then one can say the candidate is popular in both aspects. Nevertheless,
+                                      it can be hard to ascertain that and there is potential for confusion as it is not 
+                                      straightforward. 
+
+                                      
+                                    </p>
+                                    </div>
+                                    <div class="stage">
+                                    <button class= "read-more">Read more</button>
+                                    </div>
+                              </div>
+                        
+                        </div>
+                    <div class= "column column-25" style="color: white">
+                            <div class="sidebar-box gray">
+                                    <div class="summary"><p>Trustworthy, somewhat inaccurate, pretty patterns</p></div>
+                                    <div class="content">
+                                        <p>
+
+                                          Since the data was accumulated through a survey, the data source is trustworthy
+                                          and the graph also reflects the data. Therefore, it is truthful. However, while
+                                          impressions can accurately be graphed both before and after debate, there is no clear
+                                          cumulative effect of this, it is murky and therefore the graph is not optimal. Yet, like a radial
+                                          graph, it has an element of beauty as a pattern seems to arise. The graph also gets interesting
+                                          information that can prove useful in the political field, thereby making it insightful and enlightening.
+                                          All things considered, since functionality is hugely important, this visualization fails to live up
+                                          to it's idea.
+
+                                          
+                                        </p>
+                                        </div>
+                                        <div class="stage">
+                                        <button class= "read-more">Read more</button>
+                                        </div>
+                                  </div>
+                    </div>
+                    </div>
+                    <a href="https://fivethirtyeight.com/features/the-third-democratic-debate-in-7-charts/">Link to Source</a>
+
+    <div id = "tertiary-title3" style="text-decoration: underline;">
+            <h3>Visualization #3:</h3>
+     </div>
+     <div class= "row">
+            <div class = "column column-25" style= "color:white">
+                    <div class="sidebar-box gray">
+                        <div class="summary"><p><em>Specific</em> audience</p></div>
+                        <div class="content">
+                            <p>
+
+
+                              The audience here is very specific as it corresponds to a ticket service. The audience is 
+                              therefore those who have purchased the tickets, the employees managing the service, and those
+                              who are interested in buying some tickets. The graph conveys that in the summer months of 2014 and after,
+                              the employees have trouble keeping up with the demands of the tickets received. 
+                              This graph is useful as it says that as soon as the 2 employees left, the demands became too 
+                              harsh. In other words, the leave of employees can prove fatal for the business.
+                              
+
+
+                             
+                            </p>
+                            </div>
+                            <div class="stage">
+                            <button class= "read-more">Read more</button>
+                            </div>
+                      </div>
+                
+                </div>
+            <div class= "column column-25" style="color: white">
+                    <div class="sidebar-box gray">
+                            <div class="summary"><p>Position and colors</p></div>
+                            <div class="content">
+                                <p>
+
+                                  The y position encodes the the number of tickets (quantitative) sold, and the 
+                                  x position encodes the months (ordinal) of the year. The colors of the lines encode the
+                                  tickets received and tickets processed (categorical).
+
+
+                                 
+                                </p>
+                                </div>
+                                <div class="stage">
+                                <button class= "read-more">Read more</button>
+                                </div>
+                          </div>
+            </div>
+            </div>
+            <div class= "column column-30 column-offset-10"><img id= "bad-vis3" src= "Ticketz.png" style= "max-height: 350px; max-width: 550px; float: right;" ></div>
+
+            <div class= "row">
+                    <div class = "column column-25" style= "color:white">
+                            <div class="sidebar-box gray">
+                                <div class="summary"><p><em>Wasted</em> space</p></div>
+                                <div class="content">
+                                    <p>
+
+                                      The graph is indeed not hard to read, but there is a lot of wasted space.
+                                      One might need to strain the eyes a bit to truly understand the difference 
+                                      between the two lines after May. But one can still see the trend after losing 
+                                      the two employees, a slow catch up that takes the rest of the year. When looking at
+                                      the lines, the circles catch our eyes and is a good touch when comparing values 
+                                      at certain points.
+                                
+                                     
+                                    </p>
+                                    </div>
+                                    <div class="stage">
+                                    <button class= "read-more">Read more</button>
+                                    </div>
+                              </div>
+                        
+                        </div>
+                    <div class= "column column-25" style="color: white">
+                            <div class="sidebar-box gray">
+                                    <div class="summary"><p>Graph reflects data, simple, lacking functionality...</p></div>
+                                    <div class="content">
+                                        <p>
+
+                                          This visualization is truthful as it comes from as reputable source, 
+                                          and the graph does reflect the data. Also, there are no scaling errors, 
+                                          and both lines follow the same y-axis. It is beautiful in the sense that 
+                                          it's simple design does make the graph clear. However, it lacks some 
+                                          functionality and while the message is heard, there could be better ways of
+                                          addressing it. Since the difference between the two graphs is what matter, then that would be more
+                                          appropriate. It could have been more insightful
+                                          combining it into one graph. Also, it could have been even better if the graph was more zoomed into the 
+                                          relevant area. Due to these mistakes, this visualization is not good but it is a good attempt.
+
+
+
+                                        </p>
+                                        </div>
+                                        <div class="stage">
+                                        <button class= "read-more">Read more</button>
+                                        </div>
+                                  </div>
+                    </div>
+                    </div> 
+                    <a href="http://www.storytellingwithdata.com/">Link to Source</a>
+
+</div>
+<div class= "p6" style= "display: none">
+  <div id= "Title" style= "text-decoration: underline; position: relative; top: 40px; text-align: center; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif  ">
+    <h1> The Redesign </h1>
+</div>
+<div id = "empty-space" style="height: 150px"></div>
+<div id = "tertiary-title1" style="text-decoration: underline;">
+    <h3>Visualization #1:</h3>
+</div>
+<div class= "row">
+<div class = "column column-25" style= "color:white">
+        <div class="sidebar-box gray">
+            <div class="summary"><p>3D to 2D.</p></div>
+            <div class="content">
+                <p>
+
+                  I simply converted the portrayal from 3D to 2D, and added a position channel along
+                  the y-axis encoding meter (quantitative).
+
+
+
+                </p>
+                </div>
+                <div class="stage">
+                <button class= "read-more">Read more</button>
+                </div>
+          </div>
+    
+    </div>
+<div class= "column column-25" style="color: white">
+        <div class="sidebar-box gray">
+                <div class="summary"><p>Scale</p></div>
+                <div class="content">
+                    <p>
+
+                      My redesign makes it 2D compared to the original 3D picture. Additionally,
+                      my design has a scale. 
+
+
+                      
+                    </p>
+                    </div>
+                    <div class="stage">
+                    <button class= "read-more">Read more</button>
+                    </div>
+              </div>
+</div>
+</div>
+<div class= "column column-30 column-offset-10"><img id= "redesign1" src= "redesignTower.jpg" style= "max-height: 350px; max-width: 550px; float: right;" ></div>
+
+
+<div class= "row">
+        <div class = "column column-25" style= "color:white">
+                <div class="sidebar-box gray">
+                    <div class="summary"><p>Considerable improvement.</p></div>
+                    <div class="content">
+                        <p>
+
+                          I believe my redesign improves upon the original by a lot. The 3D aspect
+                          of the first model throws the viewer off as he or she cannot tell 
+                          if the mound of watter bottles is taller or not. As I added the scale and converted it to 2D,
+                          my redesign made the graph much more functional as there are actual
+                          quantitative values and a height can even be approximated to the stack. Consequently, the value
+                          we can see now makes it insightful as we can compare our wasteful habits with a worldwide known
+                          structure.
+                          Secondly, the simplicity of my design can still be appreciated and therefore the element of
+                          beauty is still there. 
+                        
+                          
+                        </p>
+                        </div>
+                        <div class="stage">
+                        <button class= "read-more">Read more</button>
+                        </div>
+                  </div>
+            
+            </div>
+        <div class= "column column-25" style="color: white">
+                <div class="sidebar-box gray">
+                        <div class="summary"><p>Simple, <em>functional</em>, insightful</p></div>
+                        <div class="content">
+                            <p>
+
+                              I think the 3D aspect of the original design may have looked prettier, but
+                              the 2D graph still uses the same figures to have that artistic connection. In other words,
+                              in terms of beauty, the simplicity that my redesign has now has not lowered the aesthetics 
+                              of the orginal by much. With respect to everything else, my redesign is more functional, insightful,
+                              and enlightening (environmmental preservation) so the trade-offs are worth it.
+
+                              
+                            </p>
+                            </div>
+                            <div class="stage">
+                            <button class= "read-more">Read more</button>
+                            </div>
+                      </div>
+        </div>
+        </div>
+<div id = "empty-space" style="height: 10x; right: 5px;"></div>
+<div id = "tertiary-title2" style="text-decoration: underline;">
+        <h3>Visualization #2:</h3>
+ </div>
+ <div class= "row">
+        <div class = "column column-25" style= "color:white">
+                <div class="sidebar-box gray">
+                    <div class="summary"><p>More <em>numbers</em>, less words</p></div>
+                    <div class="content">
+                        <p>
+                          Pre-debate favorability was encoded with a vertical axis (position) on 
+                          the left-hand side ranging from -1 to 1 (quantitative). Debate peformance was recorded with 
+                          another vertical axis (position) but on the right-hand side with the same range as the last one (quantitative).
+
+
+                        </p>
+                        </div>
+                        <div class="stage">
+                        <button class= "read-more">Read more</button>
+                        </div>
+                  </div>
+            
+            </div>
+        <div class= "column column-25" style="color: white">
+                <div class="sidebar-box gray">
+                        <div class="summary"><p>More <em>lines</em>, less points</p></div>
+                        <div class="content">
+                            <p>
+
+                                I completely changed the design, yet the simple aspect is still retained.
+                                I decided to represent the cadidates' represenation of impression with lines
+                                instead of points. I would gather the data 
+                                from the previous graph, plot the points accordingly on the axes, and connect the lines.
+
+
+
+                            </p>
+                            </div>
+                            <div class="stage">
+                            <button class= "read-more">Read more</button>
+                            </div>
+                      </div>
+        </div>
+        </div>
+        <div class= "column column-30 column-offset-10"><img id= "redesign2" src= "redesign3.jpg" style= "max-height: 350px; max-width: 550px; float: right;" ></div>
+
+        <div class= "row">
+                <div class = "column column-25" style= "color:white">
+                        <div class="sidebar-box gray">
+                            <div class="summary"><p>Massive improvement</p></div>
+                            <div class="content">
+                                <p>
+
+                                  I think my visualization is a vast improvement from the original. The first one 
+                                  had the characteristics of a radial graph, making it hard to see how two or more
+                                  factors jointly affected the overall result. As there are only two factors of
+                                  significant consideration, I believed calculating the slope between them by 
+                                  simply doing the substraction of the second axis value from the first one gives one
+                                  an accurate representation of how the impression changed. My graph also takes into account
+                                  how valuable their contribution to the debate is with respect to their pre-debate favorability.
+                                  In other words, a semi-bad peformance on debate by a well-respected candidate leaves a larger
+                                  impression on the crowd than an even worse peformance by a much less known candidate. 
+                                  The higher the impression ratio, the better the impression the candidate gave off. In other words, 
+                                  the higher the slope, the better the impression. With that logic, the best impression was given off by
+                                  O'Rourke (-0.23) and the worst was Sanders (-0.7). It also makes sense that all these ratios are negative 
+                                  as the general trend should be that we are more impressed with the popularity of the candidate then when 
+                                  actually faced with their arguments on debate day.  
+                                  
+                                  
+                                
+
+
+                                </p>
+                                </div>
+                                <div class="stage">
+                                <button class= "read-more">Read more</button>
+                                </div>
+                          </div>
+                    
+                    </div>
+                <div class= "column column-25" style="color: white">
+                        <div class="sidebar-box gray">
+                                <div class="summary"><p>Trust the process...</p></div>
+                                <div class="content">
+                                    <p>
+
+                                        While there are many 
+                                        intersecting lines (a bit more messy) in my redesign, this allows us to better understand each candidate's overrall impression throughout
+                                        the process and we can compare these changes by visualizing the lines, and slopes. Honestly, my graph does not have 
+                                        any trade-offs other than that. The new visualization is a great improvement.
+                                      
+                                    
+                                    </p>
+                                    </div>
+                                    <div class="stage">
+                                    <button class= "read-more">Read more</button>
+                                    </div>
+                              </div>
+                </div>
+                </div>
+<div id = "tertiary-title3" style="text-decoration: underline;">
+        <h3>Visualization #3:</h3>
+ </div>
+ <div class= "row">
+        <div class = "column column-25" style= "color:white">
+                <div class="sidebar-box gray">
+                    <div class="summary"><p>Positions</p></div>
+                    <div class="content">
+                        <p>
+                          The redesign has the y position encode the difference between tickets received and ticekts processes (quantitative).
+                          The x position encodes the month of the year (ordinal). 
+
+                          
+                          
+
+                        </p>
+                        </div>
+                        <div class="stage">
+                        <button class= "read-more">Read more</button>
+                        </div>
+                  </div>
+            
+            </div>
+        <div class= "column column-25" style="color: white">
+                <div class="sidebar-box gray">
+                        <div class="summary"><p><em>One</em> curve, not two</p></div>
+                        <div class="content">
+                            <p>
+
+                              In this redesign the line graph notion is kept intact, and I took away the 
+                              two different lines (and their categorical data) and kept one as that one line conveys that same information. The y position 
+                              has a maximum of 50 as 46 is the maximum difference between the two original lines. I 
+                              also added a dotted line to indicate when the employees quit for style purposes. 
+
+                         
+                            </p>
+                            </div>
+                            <div class="stage">
+                            <button class= "read-more">Read more</button>
+                            </div>
+                      </div>
+        </div>
+        </div>
+        <div class= "column column-30 column-offset-10"><img id= "redesign3" src= "redesign2.jpg" style= "max-height: 350px; max-width: 550px; float: right;" ></div>
+
+        <div class= "row">
+                <div class = "column column-25" style= "color:white">
+                        <div class="sidebar-box gray">
+                            <div class="summary"><p>Zooming in brings out the details in the <em>changes</em>...</p></div>
+                            <div class="content">
+                                <p>
+
+                                  I believe my graph is superior to the previous one. In the first place,
+                                  the first graph wastes a lot of unnecessary space. I made sure that my vertical axis
+                                  only got until 50 max. This made it a lot easier to see the change over time as it is literally
+                                  calculating the slope. In fact, 
+                                  from July to August we can see how the the new graph's curve over that interval is much more 
+                                  pronounced, implying the company had much more trouble dealing with the sudden loss of employees. 
+                                  In addition, from September to October one could miss in the first graph that there has been improvement
+                                  with the situation, but in the new graph the change in concavity from those months clearly depict this much better.
+
+                                
+                                </p>
+                                </div>
+                                <div class="stage">
+                                <button class= "read-more">Read more</button>
+                                </div>
+                          </div>
+                    
+                    </div>
+                <div class= "column column-25" style="color: white">
+                        <div class="sidebar-box gray">
+                                <div class="summary"><p>Slopes</p></div>
+                                <div class="content">
+                                    <p>
+
+                                      The only thing that could confuse people more is if they are not well acquainted 
+                                      with the notion of slope. Therefore, the first graph could make it easier to understand, yet
+                                      leave certain elements out of the reader's scope. Changing into the one curve instead of two 
+                                      allowed for a direct answer to the error in my opinion anyhow. Everything else, I believe, was 
+                                      an improvement. 
+                                    
+                                    </p>
+                                    </div>
+                                    <div class="stage">
+                                    <button class= "read-more">Read more</button>
+                                    </div>
+                              </div>
+                </div>
+                </div> 
+  
+</div>
 </body>
 </html>
+
